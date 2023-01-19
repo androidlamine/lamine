@@ -1,0 +1,25 @@
+﻿<script type='application/ld+json'>//<![CDATA[
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Organization",
+"name": "Blogger templates | Cashback | Android Tips and tricks ~ Android lamine"
+},
+"author": {
+"@type": "Person",
+"name": "Anupam"
+},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "4.3",
+"bestRating": "5"
+},
+"publisher": {
+"@type": "Organization",
+"name": "Android lamine"
+}
+} 
+
+//]]>
+</script>

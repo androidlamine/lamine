@@ -1,0 +1,108 @@
+<b:if cond='data:blog.pageType == "item"'>
+<div id='custom-ads-target'>
+ <data:post.body/>
+</div>
+<div id='custom-ads-content1'>
+<div style='margin:15px 0;text-align:center;clear:both;'>
+
+&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block; text-align:center;&quot;
+     data-ad-layout=&quot;in-article&quot;
+     data-ad-format=&quot;fluid&quot;
+     data-ad-client=&quot;ca-pub-7546919317775512&quot;
+     data-ad-slot=&quot;1468221657&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+    
+</div>  
+ </div>
+ 
+ <div id='custom-ads-content2'>
+<div style='margin:15px 0;text-align:center;clear:both;'>
+
+&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block; text-align:center;&quot;
+     data-ad-layout=&quot;in-article&quot;
+     data-ad-format=&quot;fluid&quot;
+     data-ad-client=&quot;ca-pub-7546919317775512&quot;
+     data-ad-slot=&quot;2693750677&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+   
+</div>  
+ </div>
+ 
+ <div id='custom-ads-content3'>
+<div style='margin:15px 0;text-align:center;clear:both;'>
+&lt;ins class=&quot;adsbygoogle&quot;
+style=&quot;display:block; text-align:center;&quot;
+     data-ad-layout=&quot;in-article&quot;
+     data-ad-format=&quot;fluid&quot;
+     data-ad-client=&quot;ca-pub-7546919317775512&quot;
+     data-ad-slot=&quot;2409855231&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+   
+</div>  
+ </div>
+ 
+ 
+<div id='custom-ads-target'>
+
+ <script type='text/javascript'>
+function insertAfter(addition,target) {
+var parent = target.parentNode;
+if (parent.lastChild == target) {
+parent.appendChild(addition); 
+} else {
+parent.insertBefore(addition,target.nextSibling);
+}
+}
+var adscont = document.getElementById("custom-ads-content1");
+var target = document.getElementById("custom-ads-target");
+var linebreak = target.getElementsByTagName("br");
+if (linebreak.length > 0){
+insertAfter(adscont,linebreak[3]);
+}
+</script>
+
+<script type='text/javascript'>
+function insertAfter(addition,target) {
+var parent = target.parentNode;
+if (parent.lastChild == target) {
+parent.appendChild(addition); 
+} else {
+parent.insertBefore(addition,target.nextSibling);
+}
+}
+var adscont = document.getElementById("custom-ads-content2");
+var target = document.getElementById("custom-ads-target");
+var linebreak = target.getElementsByTagName("p");
+if (linebreak.length > 0){
+insertAfter(adscont,linebreak[3]);
+}
+</script>
+
+<script type='text/javascript'>
+function insertAfter(addition,target) {
+var parent = target.parentNode;
+if (parent.lastChild == target) {
+parent.appendChild(addition); 
+} else {
+parent.insertBefore(addition,target.nextSibling);
+}
+}
+var adscont = document.getElementById("custom-ads-content3");
+var target = document.getElementById("custom-ads-target");
+var linebreak = target.getElementsByTagName("h3");
+if (linebreak.length > 0){
+insertAfter(adscont,linebreak[0]);
+}
+</script>
+
+</div>
+</b:if>
+<b:if cond='data:blog.pageType == "static_page"'><data:post.body/></b:if>

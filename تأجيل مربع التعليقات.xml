@@ -1,0 +1,19 @@
+اابحث علي هذا ال;----------وسم ----------------
+
+BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+
+إستبدله بهذا الو--------------سم------------
+
+
+var is216 = true;
+            window.addEventListener('scroll',function(e) {
+            if(is216){
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 80) {
+                BLOG_CMT_createIframe('<data:post.appRpcRelayPath/>');
+      console.log('cl');
+      is216 = false;
+              } } 
+	});
+	
+	
+	تأجيل تحميل صندوق التعليقات
