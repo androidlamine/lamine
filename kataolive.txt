@@ -1,0 +1,27 @@
+pkg update && pkg upgrade
+termux-setup-storage
+pkg install git 
+pkg install wget
+
+pkg install curl
+pkg install openssh
+pkg install ruby
+pkg install perl
+
+gem install lolcat
+gem install nokogiri
+
+يجب تحميل الملف 
+
+cd /sdcard/download
+ls
+cp metasploit-framework-6.2.27.zip /data/data/com.termux/files/home
+cd
+ls
+unzip metasploit-framework-6.2.27.zip
+cd metasploit-framework-6.2.27.zip
+./msfconsole
+bundle install
+الأن نقاط لتكتمل العملية .........
+./msfconsole
+bundle
